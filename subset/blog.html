@@ -18,6 +18,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
+    
 	<!-- START: Preloader -->
 	<div id="preloader" class="preloader">
 		<div class="spinner-grow text-dark" role="status">
@@ -81,13 +82,32 @@
                 	<ul class="list-unstyled list-inline">
                         <li class="list-inline-item"><a href="https://github.com/LiChenZe"><i class="lni-github-original"></i></a></li>
                         <li class="list-inline-item"><a href="https://mobile.twitter.com/leechense"><i class="lni-twitter-original"></i></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="lni-wechat"></i></a></li>
+                        <li class="list-inline-item" data-toggle="modal" data-target="#myModal"><a href="#"><i class="lni-wechat"></i></a></li>
                         <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCtRTxDQgQZNWY5gG0eZNCDw"><i class="lni-youtube"></i></a></li>
                     </ul>
                 </div>
 	        </nav>
         </div>
         <!-- END: NAVBAR -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Scan QR code to add friends</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="./assets/images/wechatImg.png" alt="" height="500" width="900">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </aside>
     <!-- START: Aside -->
 
@@ -207,7 +227,7 @@
 								<h3>10 tips for drawing with coloured pencils</h3>
 								<p>Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
 							</div>
-						</a>	
+						</a>
 					</div>
 				</div>
 				<div class="container">
@@ -246,7 +266,6 @@
 
 
     <!-- JAVASCRIPTS -->
-
 	<script src="assets/js/vendor.js"></script>
 
 	<!-- Map -->
@@ -256,7 +275,7 @@
 	<script src="assets/js/custom-shuffle-init.js"></script>
 	
 	<!-- Custom Js -->
-	<script src="assets/js/custom.js"></script>
-
+    <script src="assets/js/custom.js"></script>
+    
 </body>
 </html>

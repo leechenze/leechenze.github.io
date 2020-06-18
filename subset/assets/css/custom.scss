@@ -1,0 +1,41 @@
+body{
+    aside.aside{
+        .nav-wrapper{
+            nav.navbar{
+                
+            }
+        }
+        /* wechat模态框 */
+        #myModal{
+            background-color: rgba(0, 0, 0, .3);
+            .modal-dialog{
+                border: none;
+                border-radius: 15px;
+                .modal-content{
+                    border: none;
+                    border-radius: 15px;
+                    .modal-header{
+                        h4{
+                            text-shadow: 3px 3px 3px #992400;
+                        }
+                        button.close{
+                            border: 1px solid #000;
+                            border-radius: 50%;
+                            width: 25px;
+                            height: 25px;
+                            line-height: 1px;
+                            box-sizing: border-box;
+                            box-shadow: 0px 0px 5px 3px #000;
+                        }
+                    }
+                    .modal-body{
+                        padding: 0;
+                    }
+                    .modal-footer{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
