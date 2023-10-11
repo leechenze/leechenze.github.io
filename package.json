@@ -1,5 +1,5 @@
 {
-  "name": "LiChenZe.github.io",
+  "name": "leechenze.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LiChenZe/LiChenZe.github.io.git"
+    "url": "git+https://github.com/leechenze/leechenze.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LiChenZe/LiChenZe.github.io/issues"
+    "url": "https://github.com/leechenze/leechenze.github.io/issues"
   },
-  "homepage": "https://github.com/LiChenZe/LiChenZe.github.io#readme",
+  "homepage": "https://github.com/leechenze/leechenze.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "babel-core": "^6.26.3",

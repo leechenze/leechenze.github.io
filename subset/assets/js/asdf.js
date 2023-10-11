@@ -4,23 +4,23 @@
  * @LastEditTime: 2020-06-18 14:12:56
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \LiChenZe.github.io\subset\assets\js\asdf.js
- */ 
+ * @FilePath: \leechenze.github.io\subset\assets\js\asdf.js
+ */
 
 
- window.onload = function () {
-    
-    $(function () {
+window.onload = function () {
 
-        /**
-         * 设置WeChat点击模态框
-         */
-        function weChatModalBox() {
-            var weChatImg = createElement('img');
-            weChatImg.setAttribute('src', '../../assets/images/wechatImg.png');
-            weChatImg.style.cssText = ""
-            document.body.appendChild(weChatImg);
-        }
+  $(function () {
 
-    })
- }
+    /**
+     * 设置WeChat点击模态框
+     */
+    function weChatModalBox() {
+      var weChatImg = createElement('img');
+      weChatImg.setAttribute('src', '../../assets/images/wechatImg.png');
+      weChatImg.style.cssText = ""
+      document.body.appendChild(weChatImg);
+    }
+
+  })
+}
